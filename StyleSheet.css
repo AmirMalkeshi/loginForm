@@ -1,0 +1,95 @@
+::root{
+	box-sizing: border-box;
+}
+body{
+	font-family:  'Poppins', sans-serif;
+	background-color: #080710;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 600px;
+	position: relative;
+	padding-top: 150px;
+}
+.form{
+	width: 400px;
+	height: auto;
+	padding: 50px 35px 35px 35px;
+	border-radius: 10px;
+	border-width: 2px;
+	background-color: rgba(255,255,255,0.13);
+	margin:auto;
+	
+}
+input{
+	display: block;
+	margin-top: 6px;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	font-size: 32px;
+	text-align: center;
+	color: #FFFFFF;
+}
+label{
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.input{
+	font-size: 14px;
+	background-color: rgba(255,255,255,0.07);
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+.button{
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #FFFFFF;
+}
+.circle{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	position: absolute;
+}
+.circle1{
+	background-image: linear-gradient(98deg,#304FFE,#80D8FF);
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+.circle2{
+	background-image: linear-gradient(90deg,#FF6F00,#FFB300);
+	bottom: 0;
+	right: 0;
+	z-index: -2;
+}
+@media screen and (max-width:600px){
+	.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 500px;
+	padding-top: 80px;
+	}
+	.form{
+		width: 300px;
+		height: auto;
+		padding: 18px 15px 15px 15px;
+	}
+	.circle{
+	width: 140px;
+	height: 140px;
+	}
+	input{
+		margin-top: 2px;
+	}
+}
